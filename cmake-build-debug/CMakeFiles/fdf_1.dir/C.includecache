@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/minilibx_macos/mlx.h
+
+/Users/hwolf/projects/fdf/main.c
+mlx.h
+/Users/hwolf/projects/fdf/mlx.h
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+
